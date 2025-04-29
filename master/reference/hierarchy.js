@@ -27,42 +27,49 @@ var hierarchy =
     [ "crow::websocket::connection", "structcrow_1_1websocket_1_1connection.html", [
       [ "crow::websocket::Connection< Adaptor, Handler >", "classcrow_1_1websocket_1_1_connection.html", null ]
     ] ],
-    [ "crow::Connection< Adaptor, Handler, Middlewares >", "classcrow_1_1_connection.html", null ],
-    [ "crow::UTF8::context", "structcrow_1_1_u_t_f8_1_1context.html", null ],
-    [ "context", null, [
-      [ "crow::detail::partial_context< Middlewares >", "structcrow_1_1detail_1_1partial__context.html", null ],
+    [ "black_magic::last_element_type::type::context", null, [
       [ "crow::detail::partial_context< Middlewares... >", "structcrow_1_1detail_1_1partial__context.html", [
         [ "crow::detail::context< Middlewares... >", "structcrow_1_1detail_1_1context.html", null ],
         [ "crow::detail::context< Middlewares >", "structcrow_1_1detail_1_1context.html", null ]
-      ] ]
+      ] ],
+      [ "crow::detail::partial_context< Middlewares >", "structcrow_1_1detail_1_1partial__context.html", null ]
     ] ],
     [ "crow::CookieParser::context", "structcrow_1_1_cookie_parser_1_1context.html", null ],
     [ "crow::CORSHandler::context", "structcrow_1_1_c_o_r_s_handler_1_1context.html", null ],
     [ "crow::SessionMiddleware< Store >::context", "structcrow_1_1_session_middleware_1_1context.html", null ],
+    [ "crow::UTF8::context", "structcrow_1_1_u_t_f8_1_1context.html", null ],
     [ "crow::CookieParser::Cookie", "structcrow_1_1_cookie_parser_1_1_cookie.html", null ],
     [ "crow::CookieParser", "structcrow_1_1_cookie_parser.html", null ],
     [ "crow::CORSHandler", "structcrow_1_1_c_o_r_s_handler.html", null ],
     [ "crow::CORSRules", "structcrow_1_1_c_o_r_s_rules.html", null ],
     [ "crow::Crow< Middlewares >", "classcrow_1_1_crow.html", null ],
+    [ "std::enable_shared_from_this", null, [
+      [ "crow::Connection< Adaptor, Handler, Middlewares >", "classcrow_1_1_connection.html", null ]
+    ] ],
     [ "std::exception", null, [
-      [ "crow::mustache::invalid_template_exception", "classcrow_1_1mustache_1_1invalid__template__exception.html", null ]
+      [ "crow::mustache::invalid_template_exception", "classcrow_1_1mustache_1_1invalid__template__exception.html", null ],
+      [ "std::runtime_error", null, [
+        [ "crow::bad_request", "structcrow_1_1bad__request.html", null ]
+      ] ]
     ] ],
     [ "crow::session::ExpirationTracker", "structcrow_1_1session_1_1_expiration_tracker.html", null ],
     [ "crow::FileStore", "structcrow_1_1_file_store.html", null ],
-    [ "crow::detail::check_before_handle_arity_3_const< MW >::get< T, const  >", "structcrow_1_1detail_1_1check__before__handle__arity__3__const_1_1get.html", null ],
-    [ "crow::detail::check_before_handle_arity_3< MW >::get< T, >", "structcrow_1_1detail_1_1check__before__handle__arity__3_1_1get.html", null ],
-    [ "crow::detail::check_after_handle_arity_3_const< MW >::get< T, const  >", "structcrow_1_1detail_1_1check__after__handle__arity__3__const_1_1get.html", null ],
     [ "crow::detail::check_after_handle_arity_3< MW >::get< T, >", "structcrow_1_1detail_1_1check__after__handle__arity__3_1_1get.html", null ],
+    [ "crow::detail::check_after_handle_arity_3_const< MW >::get< T, const  >", "structcrow_1_1detail_1_1check__after__handle__arity__3__const_1_1get.html", null ],
+    [ "crow::detail::check_before_handle_arity_3< MW >::get< T, >", "structcrow_1_1detail_1_1check__before__handle__arity__3_1_1get.html", null ],
+    [ "crow::detail::check_before_handle_arity_3_const< MW >::get< T, const  >", "structcrow_1_1detail_1_1check__before__handle__arity__3__const_1_1get.html", null ],
     [ "crow::detail::check_global_call_false< MW >::get< T, type >", "structcrow_1_1detail_1_1check__global__call__false_1_1get.html", null ],
     [ "crow::detail::routing_handler_call_helper::Wrapped< Func, ArgsWrapped >::handler_type_helper< Args >", "structcrow_1_1detail_1_1routing__handler__call__helper_1_1_wrapped_1_1handler__type__helper.html", null ],
     [ "crow::detail::routing_handler_call_helper::Wrapped< Func, ArgsWrapped >::handler_type_helper< ArgsWrapped... >", "structcrow_1_1detail_1_1routing__handler__call__helper_1_1_wrapped_1_1handler__type__helper.html", null ],
     [ "crow::detail::routing_handler_call_helper::Wrapped< Func, ArgsWrapped >::handler_type_helper< const request &, Args... >", "structcrow_1_1detail_1_1routing__handler__call__helper_1_1_wrapped_1_1handler__type__helper_3_012f01fc0d25e96ed100e3017a66fd4b36.html", null ],
     [ "crow::detail::routing_handler_call_helper::Wrapped< Func, ArgsWrapped >::handler_type_helper< const request &, response &, Args... >", "structcrow_1_1detail_1_1routing__handler__call__helper_1_1_wrapped_1_1handler__type__helper_3_01e78e01f0ab35f7c7c9ae99998f83560a.html", null ],
     [ "crow::multipart::header", "structcrow_1_1multipart_1_1header.html", null ],
-    [ "http_parser", null, [
-      [ "crow::HTTPParser< Handler >", "structcrow_1_1_h_t_t_p_parser.html", null ],
-      [ "crow::HTTPParser< crow::Connection >", "structcrow_1_1_h_t_t_p_parser.html", null ]
+    [ "crow::multipart::header_view", "structcrow_1_1multipart_1_1header__view.html", null ],
+    [ "crow::http_parser", "structcrow_1_1http__parser.html", [
+      [ "crow::HTTPParser< crow::Connection >", "structcrow_1_1_h_t_t_p_parser.html", null ],
+      [ "crow::HTTPParser< Handler >", "structcrow_1_1_h_t_t_p_parser.html", null ]
     ] ],
+    [ "crow::http_parser_settings", "structcrow_1_1http__parser__settings.html", null ],
     [ "crow::ILocalMiddleware", "structcrow_1_1_i_local_middleware.html", null ],
     [ "crow::ILogHandler", "classcrow_1_1_i_log_handler.html", [
       [ "crow::CerrLogHandler", "classcrow_1_1_cerr_log_handler.html", null ]
@@ -72,6 +79,7 @@ var hierarchy =
     [ "crow::detail::is_before_handle_arity_3_impl< T >", "structcrow_1_1detail_1_1is__before__handle__arity__3__impl.html", null ],
     [ "crow::detail::is_middleware_global< MW >", "structcrow_1_1detail_1_1is__middleware__global.html", null ],
     [ "crow::logger", "classcrow_1_1logger.html", null ],
+    [ "crow::multipart::message_view", "structcrow_1_1multipart_1_1message__view.html", null ],
     [ "crow::detail::middleware_call_criteria_dynamic< Reversed >", "structcrow_1_1detail_1_1middleware__call__criteria__dynamic.html", null ],
     [ "crow::detail::middleware_call_criteria_dynamic< false >", "structcrow_1_1detail_1_1middleware__call__criteria__dynamic_3_01false_01_4.html", null ],
     [ "crow::detail::middleware_call_criteria_dynamic< true >", "structcrow_1_1detail_1_1middleware__call__criteria__dynamic_3_01true_01_4.html", null ],
@@ -79,7 +87,9 @@ var hierarchy =
     [ "crow::detail::middleware_indices", "structcrow_1_1detail_1_1middleware__indices.html", null ],
     [ "crow::session::multi_value", "structcrow_1_1session_1_1multi__value.html", null ],
     [ "crow::Trie::Node", "structcrow_1_1_trie_1_1_node.html", null ],
+    [ "crow::multipart::padded", "structcrow_1_1multipart_1_1padded.html", null ],
     [ "crow::multipart::part", "structcrow_1_1multipart_1_1part.html", null ],
+    [ "crow::multipart::part_view", "structcrow_1_1multipart_1_1part__view.html", null ],
     [ "crow::detail::partial_context<>", "structcrow_1_1detail_1_1partial__context_3_4.html", null ],
     [ "crow::query_string", "classcrow_1_1query__string.html", null ],
     [ "crow::json::detail::r_string", "structcrow_1_1json_1_1detail_1_1r__string.html", null ],
@@ -101,19 +111,22 @@ var hierarchy =
       [ "crow::TaggedRule< Args >", "classcrow_1_1_tagged_rule.html", null ]
     ] ],
     [ "crow::json::rvalue", "classcrow_1_1json_1_1rvalue.html", null ],
+    [ "crow::websocket::Connection< Adaptor, Handler >::SendMessageType", "structcrow_1_1websocket_1_1_connection_1_1_send_message_type.html", null ],
     [ "crow::Server< Handler, Adaptor, Middlewares >", "classcrow_1_1_server.html", null ],
     [ "crow::SessionMiddleware< Store >", "structcrow_1_1_session_middleware.html", null ],
+    [ "sha1::SHA1", "classsha1_1_1_s_h_a1.html", null ],
     [ "crow::SocketAdaptor", "structcrow_1_1_socket_adaptor.html", null ],
     [ "crow::SSLAdaptor", "structcrow_1_1_s_s_l_adaptor.html", null ],
     [ "crow::response::static_file_info", "structcrow_1_1response_1_1static__file__info.html", null ],
     [ "crow::detail::task_timer", "classcrow_1_1detail_1_1task__timer.html", null ],
-    [ "template rebind< partial_context >", null, [
-      [ "crow::detail::partial_context< Middlewares >", "structcrow_1_1detail_1_1partial__context.html", null ],
-      [ "crow::detail::partial_context< Middlewares... >", "structcrow_1_1detail_1_1partial__context.html", null ]
+    [ "black_magic::pop_back::template rebind", null, [
+      [ "crow::detail::partial_context< Middlewares... >", "structcrow_1_1detail_1_1partial__context.html", null ],
+      [ "crow::detail::partial_context< Middlewares >", "structcrow_1_1detail_1_1partial__context.html", null ]
     ] ],
     [ "crow::mustache::template_t", "classcrow_1_1mustache_1_1template__t.html", null ],
     [ "crow::Trie", "classcrow_1_1_trie.html", null ],
     [ "crow::UTF8", "structcrow_1_1_u_t_f8.html", null ],
+    [ "crow::websocket::Connection< Adaptor, Handler >::WeakWrappedMessage< Callable >", "structcrow_1_1websocket_1_1_connection_1_1_weak_wrapped_message.html", null ],
     [ "crow::detail::routing_handler_call_helper::Wrapped< Func, ArgsWrapped >", "structcrow_1_1detail_1_1routing__handler__call__helper_1_1_wrapped.html", null ],
     [ "crow::json::wvalue_reader", "structcrow_1_1json_1_1wvalue__reader.html", null ]
 ];
